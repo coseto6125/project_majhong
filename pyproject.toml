@@ -1,0 +1,16 @@
+[tool.ruff]
+line-length = 120
+select = [
+  "B", # flake8-bugbear
+  "C", # flake8-comprehensions
+  "D", # pydocstyle
+  "E", # pycodestyle
+  "F", # pyflakes
+  "M", # flake8-mutable
+  # "R",  # flake8-rst-docstrings
+  "UP", # pyupgrade
+  "W", # flake8-builtins
+  "Q"
+  # flake8-quotes
+]
+ignore = ["D101", "D407", "D410", "D100", "D102"]
